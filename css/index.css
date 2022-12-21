@@ -64,19 +64,24 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
-    text-decoration: none;
+    color:rgb(225, 239, 230);
 }
 
 h1 {
     font-size: 7.5rem;
+    color:rgb(225, 239, 230);
+  
+    
 }
 
 h2 {
     font-size: 6rem;
+    color:rgb(225, 239, 230);
 }
 
 h3 {
     font-size: 5rem;
+    color:rgb(225, 239, 230);
 }
 
 p, a {
@@ -91,6 +96,13 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgb(0, 4, 17, .8);
+    color:rgb(225, 239, 230);
+    
+}
+button {
+    background-color: rgb(0, 4, 17, .8);
+
 }
 
 /* spacers */
@@ -131,14 +143,17 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+    color:rgb(225, 239, 230);
 }
 
 .about h2 {
     width: 100%;
+    color:rgb(225, 239, 230);
 }
 
 .about-container .text {
     width: 50%;
+    color:rgb(225, 239, 230);
 }
 
 /* contact us section */
@@ -194,6 +209,12 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color:rgb(0, 4, 17);
+}
+
+label {
+    color:rgb(225, 239, 230);
+   
 }
 
 /* mobile media query */

@@ -9,6 +9,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css"/>
+
 </head>
 
 <body>
@@ -38,16 +40,7 @@
 
 		</header>
 
-		<section class="topimage">
-			<div>
-			<img src="img/home-header.jpg" alt="homebar">
-		    </div>
-	    </section>
-
 		
-
-		
-			
 
 		
 
@@ -77,9 +70,8 @@
 		</section>
 
 		<!-- spacer -->
-		<section>
-			<div class="spacer"></div>
-		</section>
+		<div class="spacer"></div>
+		
 
 		
 
@@ -97,11 +89,6 @@
 					shankle duis chicken dolore andouille do tenderloin qui.</p>
 				</div>
 
-				<div class="staff">
-					<img src="img/staff-cooks.jpg" alt="staffcooks">
-
-					
-				</div>
 				</section>
 
 					
@@ -110,9 +97,8 @@
 				
 
 		<!-- spacer -->
-		<section>
 		<div class="spacer"></div>
-		</section>
+		
 
 		<!-- contact section -->
 		<section class="contact">
@@ -158,15 +144,21 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<label for="email">Join our mailing list!</label>
+			<input type="email" placeholder="Email Address" />
+			
+              <button><a href="email">Sign Up</a></button>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+				<button><a href="menu.html">Menu</a></button>
+				<button><a href="reservations.html">Reservations</a></button>
+				<button><a href="specialoffers.html">Special Offers</a></button>
+				<button><a href="contact.html">Contact</a></button>
+			</nav>
 			<!-- copyright -->
+			<div class="copyright">
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+		    </div>
 		</footer>
 	</div>
 </body>

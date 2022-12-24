@@ -97,13 +97,27 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17, .8);
-    color:rgb(225, 239, 230);
+    text-align:center ;
     
 }
+
+.headercontainer {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 4, 17, .8);
+}
+
 button {
     background-color: rgb(0, 4, 17, .8);
-
+    color: rgb(225, 239, 230) ;
+    
+    
 }
+
+
 
 /* spacers */
 .spacer {
@@ -111,6 +125,9 @@ button {
     height: 20vh;
     background-color: rgb(0, 4, 17);
 }
+
+
+
 .spacer-sm {
     width: 100%;
     height: 10vh;
@@ -123,6 +140,19 @@ button {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    
+    
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:20px;
+    margin-inline-start: 10% ;
+    margin-inline-end: 10%;
+  
+    
+    
 }
 
 /* about us section */
@@ -134,6 +164,8 @@ button {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    
+  
 }
 
 .about-container {
@@ -143,7 +175,15 @@ button {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
-    color:rgb(225, 239, 230);
+    
+    
+}
+
+.paragraph {
+    margin-inline-start:480px;
+    margin-inline-end: 480px;
+    text-align:center;
+    
 }
 
 .about h2 {
@@ -154,6 +194,8 @@ button {
 .about-container .text {
     width: 50%;
     color:rgb(225, 239, 230);
+    
+    
 }
 
 /* contact us section */
